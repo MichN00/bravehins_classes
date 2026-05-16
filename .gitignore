@@ -1,4 +1,4 @@
 # Ignore data files
-data/
+#data/
 
-.gitkeep
+#.gitkeep
