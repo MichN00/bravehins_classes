@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bravehins_class"
+version = "0.1.0"
+description = "project for big data clases"
+authors = [{name = Michal Neznal}]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.pakages.find]
+where = ["src"]
