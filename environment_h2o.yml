@@ -1,0 +1,24 @@
+name: bravehins_h2o_env
+channels: 
+  - conda-forge
+dependencies:
+  - python = 3.11
+  - numpy 
+  - pandas
+  - pyarrow
+  - polars
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - notebook
+  - jupyterlab
+  - pathlib
+  - openjdk
+  - ipykernel
+  - pip
+  - pip:
+    - future
+    - tabulate
+    - requests
+    - h2o
